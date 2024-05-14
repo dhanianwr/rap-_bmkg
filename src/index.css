@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-datepicker-popper {
+    z-index: 50 !important;
+}
+
+.react-datepicker-wrapper {
+    display: block;
+}
+
+.react-datepicker__triangle {
+    left: -200px !important;
+}
